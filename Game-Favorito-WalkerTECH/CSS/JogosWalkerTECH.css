@@ -1,0 +1,134 @@
+/* Reset de estilos para garantir consistência entre navegadores */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('https://th.bing.com/th/id/OIG.EN7On9MmGSXE6DmcdmMV?w=1024&h=1024&rs=1&pid=ImgDetMain');
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.column {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.game-title {
+    font-size: 24px; /* Tamanho do título */
+    margin-top: 20px; /* Distância do topo */
+    margin-bottom: 10px; /* Distância da sinopse */
+}
+
+.game-synopsis {
+    font-size: 16px; /* Tamanho da sinopse */
+    margin-top: 10px; /* Distância do título */
+    margin-bottom: 20px; /* Distância da borda inferior */
+}
+
+
+.trailer-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 20px;
+    width: 50%;
+}
+
+.trailer-link a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007acc;
+    border-radius: 4px;
+}
+
+.trailer-link a:hover {
+    background-color: #005580;
+}
+
+.game-title {
+    margin-top: 0; /* Reduzindo a margem superior */
+    margin-bottom: 10px; /* Adicionando uma margem inferior */
+}
+
+.game-synopsis {
+    margin-top: 20px; /* Aumentando a margem superior */
+}
+
+
+.system-requirements-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.system-requirements-table th,
+.system-requirements-table td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+.download-links-trailer {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.download-links-trailer a {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007acc;
+    border-radius: 4px;
+}
+
+.download-links-trailer a:hover {
+    background-color: #005580;
+}
+
+.system-requirements {
+    margin-top: 20px;
+}
+
+.tips {
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+}
+
+.tips h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.tips h4 {
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.tips p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
